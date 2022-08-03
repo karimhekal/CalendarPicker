@@ -417,7 +417,7 @@ export default class CalendarPicker extends Component {
     let _initialDate = Number.isInteger(currentMonth) && Number.isInteger(currentYear) &&
         moment({ year: currentYear, month: currentMonth, hour: 12 });
     _initialDate = _initialDate || initialDate;
-    let firstScrollerMonth = _initialDate.clone().subtract(numMonths/2, 'months');
+    let firstScrollerMonth = _initialDate.clone().subtract(numMonths/4, 'months');
     if (minDate && restrictMonthNavigation && firstScrollerMonth.isBefore(minDate, 'month')) {
       firstScrollerMonth = moment(minDate);
     }

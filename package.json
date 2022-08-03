@@ -1,7 +1,7 @@
 {
-  "name": "react-native-calendar-picker",
+  "name": "react-native-calendar-picker-scrollable-fix",
   "version": "7.1.2",
-  "description": "Calendar Picker Component for React Native",
+  "description": "Calendar Picker Component for React Native, fixed onDateChange when scrollable is true",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephy/CalendarPicker"
+    "url": "https://github.com/karimhekal/CalendarPicker"
   },
   "keywords": [
     "calendar",
@@ -32,18 +32,18 @@
     "picker"
   ],
   "author": {
-    "name": "Stephani Alves",
-    "email": "alves@stephanimoroni.com"
+    "name": "Karim Hekal",
+    "email": "karimhekal@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stephy/CalendarPicker/issues"
+    "url": "https://github.com/karimhekal/CalendarPicker/issues"
   },
-  "homepage": "https://github.com/stephy/CalendarPicker",
+  "homepage": "https://github.com/karimhekal/CalendarPicker",
   "maintainers": [
     {
-      "name": "stephy",
-      "email": "alves@stephanimoroni.com"
+      "name": "Karim Hekal",
+      "email": "karimhekal@gmail.com"
     }
   ],
   "directories": {},
