@@ -2,8 +2,11 @@
 
 [![npm version](https://badge.fury.io/js/react-native-calendar-picker.svg)](https://badge.fury.io/js/react-native-calendar-picker) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/react-native-calendar-picker) [![Build Status](https://travis-ci.org/stephy/CalendarPicker.svg?branch=master)](https://travis-ci.org/stephy/CalendarPicker)
 
-This is a Calendar Picker Component for React Native
 
+This is a Calendar Picker Component for React Native.
+ 
+This package is the same as react-native-calendar-picker
+but i fixed a bug when "scrollable" prop is true and you click on any date it the calendar displays month july even though the date you clicked isn't in july , that happens only with the first click.  
 ### Scrollable CalendarPicker — New in 7.x
 
 The `scrollable` prop was introduced in 7.0.0 and features a bi-directional infinite scroller. It recycles months using RecyclerListView, shifting them as the ends are reached. If the Chrome debugger is used during development, month shifting may be erratic due to a [RN setTimeout bug](https://github.com/facebook/react-native/issues/4470). To prevent month shifts at the ends of the scroller, set `restrictMonthNavigation`, `minDate`, and `maxDate` range to 5 years or less.

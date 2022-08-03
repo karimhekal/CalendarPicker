@@ -1,7 +1,7 @@
 {
   "name": "react-native-calendar-picker-scrollable-fix",
-  "version": "7.1.2",
-  "description": "Calendar Picker Component for React Native, fixed onDateChange when scrollable is true",
+  "version": "1.1.1",
+  "description": "Calendar Picker Component for React Native, fixed a bug when 'scrollable' prop is true",
   "engines": {
     "node": ">=4.0.0"
   },
